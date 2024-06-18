@@ -6,3 +6,4 @@ pytest-xdist
 requests>=2.27.0,<3
 python-on-whales>=0.70.0
 hatchling==1.24.2
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
